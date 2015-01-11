@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MaaS_Regression_Suite]" allow-return-values="true">
+  <test name="MaaS_Regression_Test(failed)">
+    <classes>
+      <class name="com.phunware.test.Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLoginForValidUser"/>
+          <include name="setUp"/>
+          <include name="FrameworkEntryPoint"/>
+        </methods>
+      </class> <!-- com.phunware.test.Login -->
+    </classes>
+  </test> <!-- MaaS_Regression_Test(failed) -->
+</suite> <!-- Failed suite [MaaS_Regression_Suite] -->
